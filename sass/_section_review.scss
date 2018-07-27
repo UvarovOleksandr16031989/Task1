@@ -1,0 +1,235 @@
+.section_review__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 19px;
+}
+.section_review{
+    padding: 21px 0 0 0;
+}
+.header__title{
+    @include font_muli(700,26px,#393939);  
+}
+.header__link{
+    width: 148px;
+    line-height: 40px;
+    text-align: center;
+    @include font_muli(700,15px,#fff);
+    display: inline-block;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
+    border-radius: 3px;
+    border: 1px solid #d2021d;
+    background-image: linear-gradient(180deg, #ea053a 0%, #d0021b 100%);
+
+}
+@keyframes visitHover{
+    0%{
+        background-image: linear-gradient(180deg, #ea053a 0%, #d0021b 100%);
+    }
+    
+    25%{
+        background-image: linear-gradient(180deg, #ea053a 0%, #d0021b 75%, #ea053a 100%); 
+    }
+    50%{
+        background-image: linear-gradient(180deg, #ea053a 0%, #d0021b 50%, #ea053a 100%); 
+    }
+    75%{
+        background-image: linear-gradient(180deg, #ea053a 0%, #d0021b 25%, #ea053a 100%); 
+    }
+    100%{
+        background-image: linear-gradient(180deg,#d0021b 0%, #ea053a 100%);
+    }
+}
+.header__link:hover{
+    animation-name: visitHover;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.header__link:active{
+    box-shadow: 4px 6px 11px rgba(0, 0, 0, 0.22);
+}
+.section_review___content{
+    @include font_muli(400,15px,#393939);
+    padding: 0 20px 0 0;
+}
+.section_review__content_box{
+    padding: 21px 0 0 0;
+}
+
+.section_review__box_join{
+    background: url(../images/pic/background/join_bg.jpg)  no-repeat center;
+    padding: 10px 0 8px 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box_join__form{
+    background: #eaeef0;
+    padding: 12px 10px 10px 10px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.22);
+    text-align: center;
+    width: 156px;
+}
+.join_form__brithday{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.join_form__logo{
+    padding: 0 0 7px 0;
+    border-bottom: 1px solid rgba(#393939, .2);
+}
+.join_form__title{
+    @include font_muli(800,11px,#393939);
+    line-height: 24px;
+}
+.join_form__select{
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    padding: 0 0 0 3px;
+    border: 1px solid rgba(#393939, .2);
+    @include font_muli(800,8px,#393939);
+    height: 18px;
+    margin: 0 0 8px 0;
+   
+}
+.join_form__name,
+.join_form__mail,
+.join_form__password{
+    border-radius: 3px;
+    padding: 0 0 0 3px;
+    border: 1px solid rgba(#393939, .2);
+    @include font_muli(800,8px,#393939);
+    height: 18px;
+    margin: 0 0 8px 0;
+    background: #fff;
+    box-sizing: border-box;   
+} 
+.join_form__brithday_day,
+.join_form__brithday_month,
+.join_form__brithday_year{
+    @extend .join_form__select;
+}
+.join_form__brithday_month{
+    width:  75px;
+}
+.join_form__agreement_content{
+    @include font_muli(800,6px,#393939);
+    line-height: 8px;
+}
+.join_form__agreement{
+    margin: 0 auto;
+    padding: 0 0 8px 0;
+}
+.join_form__agreement_link{
+    @include font_muli(800,6px,#4a90e2);
+    text-decoration: underline;
+}
+.join_form__button{
+    background: #31ae27;
+    border-radius: 5px;
+    line-height: 23px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    @include font_muli(700,9px,#fff);
+    box-shadow: 0 3px 0px #239519;
+    margin:  0 0 11px 0;
+}
+.join_form__button:hover{
+    box-shadow: 3px 3px 2px #239519;
+}
+.join_form__button:active{
+    color: #d0021b
+}
+.join_form__sing_in_content{
+    @include font_muli(800,6px,#393939);
+}
+.join_form__sing_in_link{
+    @extend .join_form__agreement_link;
+    text-decoration: none;
+    border-bottom: 1px dashed #4a90e2;
+}
+.join_form__sing_in_link:hover{
+    border-bottom: none;
+}
+.select:after {
+    content: '';
+    width: 0;
+	height: 0;
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+    border-top: 3px solid #000;
+    position: absolute;
+    display: inline-block;
+    right: 3px;
+    top: 10px;
+   }
+   .select::before {
+    content: '';
+    width: 0;
+	height: 0;
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+    border-top: 3px solid #000;
+    position: absolute;
+    display: inline-block;
+    right: 3px;
+    top: 6px;
+    transform: rotate(180deg);
+    
+   }
+
+.select{
+    display: inline-block;
+    position: relative;
+}
+.section_review__join_sing_in{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.section_review__sig_in_box{
+    text-align: right;
+}
+.section_review__help{
+    @include font_muli(700,7px,#fff);
+    padding-right: 15px;
+}
+.section_review__sign_in_button{
+    line-height: 16px;
+    @include font_muli(700,7px,#fff);
+    background: #626262;
+    display: inline-block;
+    width: 40px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #626262;
+    text-align: center;
+}
+.section_review__sign_in_button:hover{
+    box-shadow: 3px 1px 1px #626262;
+}
+.section_review__sign_in_button:active{
+    color: #d2021d;
+}
+.section_review__join_title{
+    @include font_muli(800,27px,#fff);
+    padding-bottom: 8px;
+    word-wrap: break-word;
+    word-spacing: -5px
+}
+.section_review__join_content_box{
+    padding-left: 8px;
+}
+.section_review__join_content{
+    @include font_muli(800,13px,#fff);
+}
+.section_review__help:hover{
+ text-decoration: underline;
+}
+.section_review__help:active{
+    color: #d2021d; 
+}

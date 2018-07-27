@@ -1,0 +1,28 @@
+.section_header{
+    box-shadow: 0 1px 3px rgba(14, 48, 72, 0.5);
+    background-color: #16141a; 
+    line-height: 60px;
+}
+
+.logo_box__container{
+    display: inline-block; 
+}
+.logo_box__shape{
+    @extend .logo_box__container
+}
+.menu__link{
+    @include font_muli(700,15px,#fff);
+    opacity: 0.9;     
+}
+.section_header__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
+.menu__link:active{
+    color: #d2021d;
+}
+

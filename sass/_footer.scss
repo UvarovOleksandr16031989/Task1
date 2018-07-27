@@ -1,0 +1,22 @@
+.form_subscribe__title{
+    @include font_abril(400,17px,#fff);
+}
+.form_subscribe__input{
+    @include font_muli(400,15px,rgba(#fff, .6));
+
+}
+.form_subscribe__button{
+    @include font_muli(700,15px,#d0021b);
+    width: 168px;
+    line-height: 19px;
+    text-align: center;
+
+}
+.section_footer{
+    background:  url(../images/pic/background/footr_bg.png)  no-repeat center;
+    background-size: cover;
+}
+.menu_footer__link{
+    @include font_muli(700,17px,rgba(#fff, .8));
+    letter-spacing: 0.5px;
+}

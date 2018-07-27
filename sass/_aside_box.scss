@@ -1,0 +1,81 @@
+.aside_box_title{
+   @include font_muli(800,18px,#1c222d); 
+}
+
+.aside_box__best{
+    padding: 20px 0 ;
+    border-bottom: 1px solid #ebeef0;
+}
+.aside_best__figure{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    line-height: 60px;
+    border: 1px solid #ebeef0;
+    text-align: center;
+}
+.aside_best__box_content{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+.aside_best__title{
+    @include font_muli(700,15px,#232632);
+    line-height: 19px;
+   
+}
+.aside_best__rating_stars{
+    vertical-align: super;
+}
+.aside_best__rating_assessment--bold{
+    @include font_muli(700,14px,#000);
+}
+.aside_best__rating_assessment{
+    @include font_muli(700,12px,#000);
+}
+.aside_best__link{
+   @include font_muli(700,12px,#4a90e2)
+}
+.aside_best__link:hover{
+    text-decoration: underline;
+}
+
+.aside_box__hot{
+    padding: 115px 0 0 0;
+}
+.aside_hot__title{
+    @include font_muli(800,17px,#1c222d);
+    padding-bottom: 19px;
+}
+.aside_hot__data{
+    padding: 20px 0 25px 0;
+}
+.aside_hot__name{
+    @include font_muli(700,15px,#232632);
+    line-height: 20px;
+}
+.aside_hot__about{
+    @include font_muli(400,12px,#1b202c);
+    line-height: 15px;
+}
+.aside_hot__batton{
+    display: inline-block;
+    @include font_muli(700,15px,#fff);
+    width: 115px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 3px;
+    background-color: #a7b4ba;
+}
+.aside_hot__batton:hover{
+    background-image: linear-gradient(180deg, #66c943 0%, #369920 100%);
+}
+.aside_hot__batton:active{
+    box-shadow: 3px 3px 3px#66c943;
+}
+.aside_hot__button_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

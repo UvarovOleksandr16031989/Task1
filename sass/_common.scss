@@ -1,0 +1,100 @@
+.container{
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 16px;
+}
+.container--footer{
+  max-width: 1174px;
+}
+.container--flex_row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: table;
+  overflow: hidden;
+
+}
+textarea, 
+textarea:active, 
+textarea:focus {
+  outline: none;
+  resize: none;
+}
+button, 
+button:active, 
+button:focus{
+  outline: none;
+  border: none;
+}
+
+
+@mixin font_muli($weight,$size,$color) {
+  color: $color;
+  font-weight: $weight;
+  font-size: $size;
+  font-family: 'Muli', sans-serif;
+}
+@mixin font_abril($weight,$size,$color) {
+  color: $color;
+  font-weight: $weight;
+  font-size: $size;
+  font-family: 'Abril Fatface', cursive;
+}
+@mixin col($col) {
+  width: (100%/12*$col);
+}
+.col-md-2{
+  @include col(2);
+}
+.col-md-3{
+  @include col(3);
+}
+.col-md-4{
+  @include col(4);
+}
+.col-md-9{
+  @include col(9);
+}
+.col-md-5{
+  @include col(5);
+}
+.col-md-6{
+  @include col(6);
+}
+.col-md-12{
+  @include col(12);
+}
+.col-md-11{
+  @include col(11);
+}
+.col-md-7{
+  @include col(7)
+}
+.col-md-8{
+  @include col(8)
+}
+.col-md-10{
+  @include col(10)
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: rgba(#393939, .5);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(#393939, .5);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(#393939, .5);
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: rgba(#393939, .5);
+}
