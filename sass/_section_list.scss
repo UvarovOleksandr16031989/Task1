@@ -13,7 +13,7 @@
 }
 .box_list__li{
     @include font_muli(400,18px,#393245);
-    line-height: 40px;
+    line-height: 44px;
 }
 .box_list__number{
     @include font_muli(700,16px,#393245);  
@@ -22,4 +22,5 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 62px;
 }

@@ -26,3 +26,36 @@
     color: #d2021d;
 }
 
+.section_header__burger_box{
+    display: none;
+    position: relative;
+    z-index: 5;
+    align-items: center;
+    padding-right: 20px; 
+}
+.section_header__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_header__burger_item{
+    width: 20px;
+    height: 1px;
+    content:'';
+    margin: 3px;
+    background: #fff;
+     
+    transition: all 0.5s ease;
+}
+.is-active:first-child{
+    transform: rotate(45deg) translateX(5px);
+  
+}
+.is-active:nth-child(2){
+    margin-left: 100px;
+}
+.is-active:last-child{
+    transform: rotate(-45deg) translateX(5px);
+}

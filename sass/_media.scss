@@ -1,342 +1,144 @@
 
-@media screen and (max-width: 1099px)
-
-  .header_chec_btn
-    display: block
-    position: absolute
-    top: 10px
-    right: 10px
-    width: 50px
-    height: 50px
-
-  .header_menu
-    visibility: hidden
-    transition: all .5s ease
-    opacity: 0
-    height: 0
-    width: 50%
-    padding: 0
-
-  .header_menu>.header_menu_link
-    display: block
-    width: 100%
-    margin: 0
-    &:hover
-      border-bottom: 4px solid transparent
-
-
-  .right_menu
-    padding-top: 150px
-  #chek:checked~.header_menu
-    visibility: visible
-    opacity: 1
-    width: 100%
-    height: 100%
-  #chek:checked~.header_chec_btn>.header__btn-center
-    margin-left: 100px
-
-  #chek:checked~.header_chec_btn
-    padding-top: 10px
-
-  #chek:checked~.header_chec_btn>.header__btn-top
-    transform: rotate(45deg)
-
-
-  #chek:checked~.header_chec_btn>.header__btn-bottom
-    margin-top: -20px
-    transform: rotate(-45deg)
-
-  .why_text
-    margin: 0
-
-  .why_content
-    vertical-align: middle
-    margin: 0
-
-
-  .menu_content_figure,
-  .menu_offer_title_content
-    text-align: center
-    width: 100%
-
-  .menu_content_box_carousel
-    float: none
-    width: auto
-
-  .menu_content_figure,
-  .menu_offer_title_content,
-  .menu_content_box
-    display: inline-block
-    margin: 0
-    float: none
-
-  .menu_content_offer
-    text-align: center
-
-  .menu_offer_positions
-    text-align: left
-
-  .menu_offer_title_content.revers
-    margin: 0
-    text-align: center
-
-  .menu_list_button
-    display: none
-
-  .revers>.owl-dots
-    position: relative
-    bottom: 20px
-    display: block
-
-  .owl-dots
-    position: relative
-    bottom: 25px
-    display: block
-
-  .disabled
-    display: block
-
-  .owl-nav
-    display: none
-  .section_service
-    text-align: center
-
-
-  .write_us_input_box
-    display: inline-block
-    float: none
-    margin: 0
-
-  .write_us_mesage
-    float: none
-    display: block
-    margin: 20px auto 0
-
-  .chief_content
-    overflow: scroll
-
-@media screen and (max-width: 960px)
-
-  .why_content:nth-child(3) p
-    margin: 0
-
-@media screen and (max-width: 840px)
-
-
-  .chief_logo
-    width: 50px
-    line-height: 50px
-
-  .chief_content
-    max-height: 60%
-    min-width: 150px
-    width: 60%
-
-  .chief_logo_img
-    width: 50%
-
-  .chief_title
-    font-size: 20px
-
-  .map_clients
-    text-align: center
-
-  .map_clients_about,.map_clients_about_content,.map_clients_logo
-    display: block
-    height: auto
-  .maps_btn
-    width: 257px
-  .footer_content_link
-    display: block
-    &:hover
-      border: none
-
-  .colone
-    display: none
-
-@media screen and (max-width: 720px)
-
-  .top_content_header
-    position: relative
-    &::after
-      display: block
-      position: absolute
-      left: 50%
-      top: 100%
-      margin-top: 5px
-      transform: translateX(-50%)
-    &::before
-      display: block
-      position: absolute
-      left: 50%
-      bottom: 100%
-      margin-bottom: 5px
-      transform: translateX(-50%)
-
-  .right_content_header
-    text-align: center
-
-  .header_content_content span
-    display: inline
-    margin: 0
-
-
-
-@media screen and (max-width: 680px)
-  .menu_offer_positions,.menu_offer_positions.revers
-    float: none
-    display: inline-block
-
-  .section_chief
-    background-size: 174%
-
-  .media_video
-    width: 500px
-    height: 300px
-@media screen and (max-width: 600px)
-  .service_content_about
-    padding-left: 4px
-    padding-top: 13.66px
-    min-width: 200px
-    width: 200px
-
-
-
-  .why_text:last-child
-    padding-bottom: 20px
-
-  .service_content_photo
-    width: 210px
-
-  .service_content_box
-    margin: 0
-
-
-
-  .chief_content_box
-    padding: 15px 0 0 5px
-
-
-  .chief_content_title
-    font-size: 14px
-
-  .chief_content_content
-    font-size: 10px
-
-
-  .write_tell_link
-    font-size: 15px
-    line-height: 21px
-    white-space: nowrap
-
-  .write_tell_link_tell
-    font-size: 15px
-    white-space: nowrap
-
-  .write_us_tell
-    bottom: -36px
-
-@media screen and (max-width: 480px)
-
-  .owl-dots
-    bottom: 0px
-
-  .right_menu
-    padding-top: 36%
-
-  .header_content_strong
-    font-size: 44px
-
-  .header__hamburge-btn
-    height: 3px
-    width: 25px
-
-  .why_content_box>.why_content p
-    width: 210px
-
-
-  .why_content
-    padding: 10px 0
-
-  .media_video
-    width: 400px
-    height: 200px
-  .media__button_img_right,.media__button_img_left
-    display: none
-
-
-
-  .menu_offer_title
-    font-size: 25px
-
-  .menu_offer_positions
-    padding: 15px 10px
-
-
-
-  .media_logo
-    width: 50px
-    line-height: 50px
-
-  .media_logo_img
-    width: 70%
-
-  .media_title
-    font-size: 20px
-
-
-  .chief_logo
-    width: 30px
-    line-height: 30px
-
-  .chief_title
-    font-size: 12px
-
-  .chief_content_box_top > .chief_content_content
-    font-size: 11px
-    line-height: 14px
-
-  .map_about_content_title
-    font-size: 11px
-
-  .map_about_content_street
-    font-size: 8px
-
-  .map_clients
-    overflow-y: scroll
-    height: 300px
-  .maps_btn
-    width:  198px
-  .news_ad
-    margin: 0
-
-
-  #chek:checked~.header_chec_btn>.header__btn-bottom
-    margin-top: -16px
-
-@media screen and (max-width: 400px)
-  .menu_content
-    padding-top: 25px
-
-  .write_us_mail,.write_us_mesage
-    width: 210px
-
-  .write_us_topic
-    width: 100%
-
-  .write_us_review
-    line-height: 20px
-
-  .media_video
-    width: 200px
-    height: 100px
-
-  .footer_content
-    margin-top: 15px
-
-  .chief_content
-    max-height: 45%
-
-  .header_chec_btn
-    right: 0px
-
+@media screen and (max-width: 1173px){
+  .setion_foter__inner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .container--flex_row{
+    justify-content: space-between;
+  }
+  .container{
+    max-width: 980px;
+  }
+  .section_footer__menu{
+    padding-top: 38px;
+  }
+  .col-lg-8{
+    @include col(8);
+  }
+  .col-6{
+    @include col(6);
+  }
+ 
+  
+}
+@media screen and (max-width: 978px){
+    .aside_box{
+      display: none;
+    }
+    .container--flex_row{
+      justify-content: center;
+    }
+    .section_header__menu{
+      position: absolute;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      left: 0;
+      right: 0;
+      text-align: center;
+      background: #222025;
+      z-index: 1;
+      padding: 30px 0 ;
+      top: -600px;
+      transition: all 0.5s ease; 
+    }
+    .col-12{
+      @include col(12);
+    }
+   
+    .hidden{
+      top: 0px;
+  }
+    .section_header__burger_box{
+      display: block;
+      width: 10px;
+    }
+    .box_list__li{
+      border-bottom: 1px solid #f0f0f4;
+    }
+    .section_overview{
+      padding-top: 50px;
+    }
+    .section_review___content{
+      padding: 0;
+    }
+   
+}
+
+@media screen and (max-width: 780px){
+  .col-sm-11{
+    @include col(11);
+  }
+  .col-sm-12{
+    @include col(12);
+  }
+}
+@media screen and (max-width: 660px){
+  .section_footer__menu{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu_footer__link{
+    padding-top: 10px;
+  }
+  .section_footer__menu{
+    padding-top: 28px;
+  }
+  .form_subscribe__box_input{
+    text-align: center;
+  }
+  .form_subscribe__input{
+    width: 100%;
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+  .form_subscribe__button{
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 599px){
+  .section_review__header{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-sx-11{
+    @include col(11);
+  }
+ 
+  .header__title{
+    padding-bottom: 10px;
+  }
+  .section_review__box_join{
+    flex-direction: column;
+    align-items: center;
+  }
+  .section_review__join_sing_in{
+    align-items: center;
+    padding-top: 10px;
+  }
+  .section_review__sig_in_box{
+    padding-bottom: 10px;
+  }
+  .section_review__join_content_box{
+    text-align: center;
+  }
+  .form_subscribe__title{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 350px){
+  .form_subscribe__title{
+    font-size: 14px;
+  }
+  .header__title{
+    font-size: 23px;
+  }
+}
+
+
+ 
+  

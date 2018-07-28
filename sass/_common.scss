@@ -1,16 +1,14 @@
 .container{
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 1174px;
   padding: 0 16px;
 }
-.container--footer{
-  max-width: 1174px;
-}
+
 .container--flex_row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .clearfix::after{
   content: '';
