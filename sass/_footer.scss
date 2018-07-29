@@ -76,9 +76,11 @@
     transform: rotate(180deg);
     @include font_muli(400,30px,rgba(#fff, .6));
     z-index: 30;
+   display: none;
 }
 .button_top.hidden{
-    display: none;
+    display: block;
+
 }
 .button_top:hover{
     box-shadow: 0px -1px 1px #369920;

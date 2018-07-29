@@ -110,13 +110,16 @@
   .col-md-1{
     @include col(1);
   }
-    .hidden{
+    .is-hidden{
       top: 0px;
   }
     .section_header__burger_box{
       display: block;
       width: 10px;
     }
+  .section_review__content_box{
+    margin: 0 auto;
+  }
     .box_list__li{
       border-bottom: 1px solid #f0f0f4;
     }
