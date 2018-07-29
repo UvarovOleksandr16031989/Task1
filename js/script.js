@@ -41,7 +41,7 @@ while(x<2019){
 }
 var $win = $(window),
     $fixed = $(".button_top"),
-    limit = 300;
+    limit = 400;
 
 function tgl (state) {
     $fixed.toggleClass("hidden", state);
@@ -50,7 +50,7 @@ function tgl (state) {
 $win.on("scroll", function () {
     var top = $win.scrollTop();
 
-    if (top < limit) {
+    if (top > limit) {
         tgl(true);
     } else {
         tgl(false);
@@ -59,5 +59,5 @@ $win.on("scroll", function () {
 
 $('#btn_head').click(function(){
     $('.section_header__burger_item').toggleClass('is-active');
-    $('.section_header__menu').toggleClass('hidden');
+    $('.section_header__menu').toggleClass('is-hidden');
 });
