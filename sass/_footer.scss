@@ -22,7 +22,13 @@
     border-radius: 0 2px 2px 0;
     background-color: rgba(#ffffff, .8);
     margin-left: -5px;
-
+}
+.form_subscribe__button:hover{
+    background-color:#d0021b ;
+    color:rgba(#ffffff, .8) ;
+}
+.form_subscribe__button:active{
+    box-shadow: 0px 0px 13px rgba(182, 182, 182, 1);
 }
 .section_footer{
     background:  url(../images/pic/background/footr_bg.png)  no-repeat center;
@@ -32,6 +38,13 @@
 .menu_footer__link{
     @include font_muli(700,17px,rgba(#fff, .8));
     letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.menu_footer__link:hover{
+    text-decoration: underline;
+}
+.menu_footer__link:active{
+    color: #d0021b;
 }
 .form_subscribe__input::-webkit-input-placeholder {
     @include font_muli(400,15px,rgba(#fff, .6));
@@ -40,7 +53,7 @@
     @include font_muli(400,15px,rgba(#fff, .6));
 }
 .form_subscribe__box_input{
-    padding: 10px 0 0 0;
+    padding: 10px 0 3px 0;
 }
 .section_footer__menu{
     display: flex;
@@ -62,6 +75,7 @@
     text-align: center;
     transform: rotate(180deg);
     @include font_muli(400,30px,rgba(#fff, .6));
+    z-index: 30;
 }
 .button_top.hidden{
     display: none;

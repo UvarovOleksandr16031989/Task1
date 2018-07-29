@@ -2,6 +2,7 @@
   margin: 0 auto;
   max-width: 1174px;
   padding: 0 16px;
+  overflow: hidden;
 }
 
 .container--flex_row{
@@ -46,37 +47,37 @@ button:focus{
 @mixin col($col) {
   width: (100%/12*$col);
 }
-.col-md-2{
+.col2{
   @include col(2);
 }
-.col-md-3{
+.col-3{
   @include col(3);
 }
-.col-md-4{
+.col4{
   @include col(4);
 }
-.col-md-9{
+.col-9{
   @include col(9);
 }
-.col-md-5{
+.col-5{
   @include col(5);
 }
-.col-md-6{
+.col6{
   @include col(6);
 }
-.col-md-12{
+.col-12{
   @include col(12);
 }
-.col-md-11{
+.col-11{
   @include col(11);
 }
-.col-md-7{
+.co-7{
   @include col(7)
 }
-.col-md-8{
+.col-8{
   @include col(8)
 }
-.col-md-10{
+.col-10{
   @include col(10)
 }
 select {
