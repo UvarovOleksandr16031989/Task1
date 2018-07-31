@@ -1,6 +1,7 @@
 .form_subscribe__title{
     @include font_abril(400,17px,#fff);
 }
+
 .form_subscribe__input{
     @include font_muli(400,15px,rgba(#fff, 1));
     width: 360px;
@@ -12,6 +13,7 @@
     border-radius: 3px;
     border: 1px solid #ffffff;
 }
+
 .form_subscribe__button{
     @include font_muli(700,15px,#d0021b);
     width: 168px;
@@ -23,49 +25,59 @@
     background-color: rgba(#ffffff, .8);
     margin-left: -5px;
 }
+
 .form_subscribe__button:hover{
     background-color:#d0021b ;
     color:rgba(#ffffff, .8) ;
 }
+
 .form_subscribe__button:active{
     box-shadow: 0px 0px 13px rgba(182, 182, 182, 1);
 }
+
 .section_footer{
     background:  url(../images/pic/background/footr_bg.png)  no-repeat center;
     background-size: cover;
     padding: 28px 0 58px 0;
 }
+
 .menu_footer__link{
     @include font_muli(700,17px,rgba(#fff, .8));
     letter-spacing: 0.5px;
     cursor: pointer;
+    transform: translateY(-50%);
 }
+
 .menu_footer__link:hover{
     text-decoration: underline;
 }
+
 .menu_footer__link:active{
     color: #d0021b;
 }
+
 .form_subscribe__input::-webkit-input-placeholder {
     @include font_muli(400,15px,rgba(#fff, .6));
-} 
+}
+
 .form_subscribe__input::-moz-placeholder {
     @include font_muli(400,15px,rgba(#fff, .6));
 }
+
 .form_subscribe__box_input{
     padding: 10px 0 3px 0;
 }
-.section_footer__menu{
+
+.section_footer__menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 0 10px 0;
 }
 
 .button_top{
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
     vertical-align: middle;
     position: fixed;
     border-radius: 100px;
@@ -76,18 +88,22 @@
     transform: rotate(180deg);
     @include font_muli(400,30px,rgba(#fff, .6));
     z-index: 30;
-   display: none;
+    display: none;
 }
+
 .button_top.hidden{
     display: block;
 
 }
+
 .button_top:hover{
     box-shadow: 0px -1px 1px #369920;
 }
+
 .is-hidden{
     display: inline-block;
 }
+
 .setion_foter__inner{
     display: flex;
     flex-direction: row;

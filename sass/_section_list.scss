@@ -4,20 +4,22 @@
     padding: 28px 0;
     margin-top: 40px;
     display: inline-block;
-
 }
+
 .box_list__ul{
    text-align: left;
    display: inline-block;
-   
 }
+
 .box_list__li{
     @include font_muli(400,18px,#393245);
     line-height: 44px;
 }
+
 .box_list__number{
     @include font_muli(700,16px,#393245);  
 }
+
 .section_list{
     display: flex;
     flex-direction: row;

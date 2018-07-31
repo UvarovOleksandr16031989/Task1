@@ -7,21 +7,26 @@
 .logo_box__container{
     display: inline-block; 
 }
+
 .logo_box__shape{
     @extend .logo_box__container
 }
+
 .menu__link{
     @include font_muli(700,15px,#fff);
     opacity: 0.9;     
 }
+
 .section_header__menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .menu__link:hover{
     text-decoration: underline;
 }
+
 .menu__link:active{
     color: #d2021d;
 }
@@ -33,6 +38,7 @@
     align-items: center;
     padding-right: 20px; 
 }
+
 .section_header__inner{
     display: flex;
     flex-direction: row;
@@ -49,13 +55,16 @@
      
     transition: all 0.5s ease;
 }
+
 .is-active:first-child{
     transform: rotate(45deg) translateX(5px);
   
 }
+
 .is-active:nth-child(2){
     margin-left: 100px;
 }
+
 .is-active:last-child{
     transform: rotate(-45deg) translateX(5px);
 }

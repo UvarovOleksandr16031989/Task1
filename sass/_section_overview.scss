@@ -2,16 +2,20 @@
     padding: 135px 0 0 0;
     display: inline-block
 }
+
 .section_overview__title{
     @include font_muli(700,26px,#393939);
     padding: 0 0 14px 0;
 }
+
 .section_overview__content{
     @include font_muli(300,15px,#393939);
 }
+
 .section_overview__content--botton{
     padding-top: 30px;
 }
+
 .section_overview__photo_inner{
     padding: 20px 0 0 0;
     text-align: center;

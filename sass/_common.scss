@@ -11,26 +11,27 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .clearfix::after{
   content: '';
   clear: both;
   display: table;
   overflow: hidden;
-
 }
+
 textarea, 
 textarea:active, 
 textarea:focus {
   outline: none;
   resize: none;
 }
+
 button, 
 button:active, 
 button:focus{
   outline: none;
   border: none;
 }
-
 
 @mixin font_muli($weight,$size,$color) {
   color: $color;
@@ -44,56 +45,73 @@ button:focus{
   font-size: $size;
   font-family: 'Abril Fatface', cursive;
 }
+
 @mixin col($col) {
   width: (100%/12*$col);
 }
-.col2{
+
+.col-2{
   @include col(2);
 }
+
 .col-3{
   @include col(3);
 }
-.col4{
+
+.col-4{
   @include col(4);
 }
+
 .col-9{
   @include col(9);
 }
+
 .col-5{
   @include col(5);
 }
-.col6{
+
+.col-6{
   @include col(6);
 }
+
 .col-12{
   @include col(12);
 }
+
 .col-11{
   @include col(11);
 }
+
 .co-7{
   @include col(7)
 }
+
 .col-8{
   @include col(8)
 }
+
 .col-10{
   @include col(10)
 }
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
+
 ::-webkit-input-placeholder { /* Chrome */
   color: rgba(#393939, .5);
 }
+
 :-ms-input-placeholder { /* IE 10+ */
   color: rgba(#393939, .5);
 }
+
 ::-moz-placeholder { /* Firefox 19+ */
   color: rgba(#393939, .5);
 }
+
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: rgba(#393939, .5);
 }
